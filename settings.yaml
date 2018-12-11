@@ -13,10 +13,10 @@ Api:
     DataConnString:
       settings-key: Bcn-ETH-DataConnString
       types:
-      - AzureTableStorage
+        - AzureTableStorage
     LogsConnString:
       settings-key: BcnLogsConnString
-        types:
+      types:
         - AzureTableStorage
   RpcNode:
     ApiUrl:
@@ -30,7 +30,7 @@ SlackNotifications:
     ConnectionString:
       settings-key: SlackNotificationsConnString
       types:
-      - AzureTableStorage
+        - AzureTableStorage
     QueueName:
       settings-key: SlackQueueName
 MonitoringServiceClient:
