@@ -14,7 +14,11 @@
     </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="Lykke.Quintessence.Api" Version="0.0.5-beta" />
+        <PackageReference Include="Lykke.Quintessence.Api" Version="0.0.6-beta" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Lykke.BilService.EthereumApi.DomainServices\Lykke.BilService.EthereumApi.DomainServices.csproj" />
     </ItemGroup>
 
 </Project>

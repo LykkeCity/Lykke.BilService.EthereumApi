@@ -1,7 +1,9 @@
 using Autofac;
 using JetBrains.Annotations;
+using Lykke.BilService.EthereumApi.Domain.Services;
 using Lykke.BilService.EthereumApi.Settings;
 using Lykke.Quintessence.Core.DependencyInjection;
+using Lykke.Quintessence.Domain.Services.DependencyInjection;
 using Lykke.Quintessence.Settings;
 using Lykke.SettingsReader;
 
@@ -24,7 +26,8 @@ namespace Lykke.BilService.EthereumApi.Modules
             var chainId = _appSettings.CurrentValue.Api.IsMainNet ? 1 : 3;
 
             builder
-                .UseChainId(chainId);
+                .UseChainId(chainId)
+                .UseAssetService<EthereumAssetService>();
         }
     }
 }

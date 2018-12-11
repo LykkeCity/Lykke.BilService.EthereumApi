@@ -8,6 +8,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8EFAF452
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.BilService.EthereumApi.Tests", "tests\Lykke.BilService.EthereumApi.Tests\Lykke.BilService.EthereumApi.Tests.csproj", "{1312A9A2-03D3-4CB6-85D5-091CD0698596}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lykke.BilService.EthereumApi.DomainServices", "src\Lykke.BilService.EthereumApi.DomainServices\Lykke.BilService.EthereumApi.DomainServices.csproj", "{60D6F634-D01B-4347-9983-1E215F7DF89F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{09A2DA18-E27A-4270-918D-F3AA458C51AE} = {A72FE784-8439-4E77-A7EF-3B67FBAB88E3}
 		{1312A9A2-03D3-4CB6-85D5-091CD0698596} = {8EFAF452-274F-4426-9BA9-E80C90C37B3F}
+		{60D6F634-D01B-4347-9983-1E215F7DF89F} = {A72FE784-8439-4E77-A7EF-3B67FBAB88E3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{09A2DA18-E27A-4270-918D-F3AA458C51AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +29,9 @@ Global
 		{1312A9A2-03D3-4CB6-85D5-091CD0698596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1312A9A2-03D3-4CB6-85D5-091CD0698596}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1312A9A2-03D3-4CB6-85D5-091CD0698596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D6F634-D01B-4347-9983-1E215F7DF89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D6F634-D01B-4347-9983-1E215F7DF89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D6F634-D01B-4347-9983-1E215F7DF89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D6F634-D01B-4347-9983-1E215F7DF89F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
