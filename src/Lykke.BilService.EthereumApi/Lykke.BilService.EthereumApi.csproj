@@ -14,7 +14,7 @@
     </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="Lykke.Quintessence.Api" Version="0.0.6-beta" />
+        <PackageReference Include="Lykke.Quintessence.Api" Version="0.0.12-beta" />
     </ItemGroup>
     
     <ItemGroup>
