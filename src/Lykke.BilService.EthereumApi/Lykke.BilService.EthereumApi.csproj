@@ -14,8 +14,8 @@
     </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="Lykke.Quintessence.Api" Version="1.1.3" />
-        <PackageReference Include="Lykke.Quintessence.Core.Telemetry" Version="1.1.3" />
+        <PackageReference Include="Lykke.Quintessence.Api" Version="1.1.4" />
+        <PackageReference Include="Lykke.Quintessence.Core.Telemetry" Version="1.1.4" />
     </ItemGroup>
     
     <ItemGroup>
